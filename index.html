@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+    <meta
+        content="Wir sind eine Gruppe junger Sportler aus Wien, die sich zum Ziel gesetzt haben, Parkour, Partnerakrobatik, Tanz und viele weitere Disziplinen zu verschmelzen."
+        name="description" />
+    <title> Flow Movement Collective</title>
+    <link href="/static/img/logo.svg" rel="icon" type="image/svg+xml" />
+    <link href="/static/img/favicon.ico" rel="alternate icon" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@400;500;600&display=swap"
+          rel="stylesheet">
+
+    <link href="assets/main.css" rel="stylesheet"/>
+    
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html#page-top">
+                <img src="/static/img/logo.svg">
+                Flow Movement Collective
+            </a>
+            <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" data-toggle="collapse"
+                type="button">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" data-text-key="shows"
+                            href="/shows.html"></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-text-key="influences"
+                            href="/influences.html"></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" data-text-key="projects" href="/projects.html"></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" data-text-key="contact"
+                            href="#contact"></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <i aria-expanded="false" aria-haspopup="true"
+                                class="dropdown-toggle nav-link fas fa-language mt-1" data-toggle="dropdown"
+                                id="dropdownMenuButton" type="button">
+                            </i>
+                            <div aria-labelledby="dropdownMenuButton" class="dropdown-menu">
+                                <span class="dropdown-item" onclick="setLangDE()">Deutsch</span>
+                                <span class="dropdown-item" onclick="setLangEN()">English</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+            <img class="img-fluid" alt="Logo" id="logo" src="static/img/logo.svg">
+            <h1 class="text-white-50 mx-auto mt-5 mb-4">Flow Movement Collective</h1>
+            <a class="btn btn-primary js-scroll-trigger" href="#about">About us</a>
+        </div>
+    </div>
+</header>
+<!-- About-->
+<main class="pt-5" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center" data-text-key="about"></div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="links">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="shows.html">
+                        <img alt="Gallerie" class="img-fluid" src="static/img/mainpage-shows.jpg" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name" data-text-key="shows">Shows</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box portfolio-video" href="projects.html">
+                        <img alt="Projekte" class="img-fluid" src="static/img/mainpage-projects.png" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name" data-text-key="projects">Projekte</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 mx-auto">
+                    <a class="portfolio-box" href="influences.html">
+                        <img alt="Influences" class="img-fluid" src="static/img/mainpage-influences.png" />
+                        <div class="portfolio-box-caption">
+                            <div class="project-name" data-text-key="influences">Einflüsse</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Athletes -->
+<section class="athletes-section" id="athletes">
+    <div class="container-fluid d-flex flex-wrap justify-content-center portraits">
+        <a class="portrait-box text-white" data-target="#kathi-bio" data-toggle="modal">
+            <img alt="Portrait" class="img-fluid rounded-circle portr" src="static/img/portrait-kathi.png">
+            <h3><span class="portr-text">Katharina Prager</span></h3>
+        </a>
+        <a class="portrait-box text-white" data-target="#alina-bio" data-toggle="modal">
+            <img alt="Portrait" class="img-fluid rounded-circle portr" src="static/img/portrait-alina.png">
+            <h3><span class="portr-text">Alina Scharbl</span></h3>
+        </a>
+        <a class="portrait-box text-white" data-target="#flo-bio" data-toggle="modal">
+            <img alt="Portrait" class="img-fluid rounded-circle portr" src="static/img/portrait-flo.jpg">
+            <h3><span class="portr-text">Florian Guggi</span></h3>
+        </a>
+        <a class="portrait-box text-white" data-target="#julian-bio" data-toggle="modal">
+            <img alt="Portrait" class="img-fluid rounded-circle portr" src="static/img/portrait-julian.png">
+            <h3><span class="portr-text">Julian Haunold</span></h3>
+        </a>
+        <a class="portrait-box text-white" data-target="#felix-bio" data-toggle="modal">
+            <img alt="Portrait" class="img-fluid rounded-circle portr" src="static/img/portrait-felix.jpg">
+            <h3><span class="portr-text">Felix Poppenberger</span></h3>
+        </a>
+        <a class="portrait-box text-white" data-target="#lilo-bio" data-toggle="modal">
+            <img alt="Portrait" class="img-fluid rounded-circle portr" src="static/img/portrait-lilo.jpg">
+            <h3><span class="portr-text">Lilo Prager</span></h3>
+        </a>
+        <a class="portrait-box text-white" data-target="#theresa-bio" data-toggle="modal">
+            <img alt="Portrait" class="img-fluid rounded-circle portr" src="static/img/portrait-theresa.jpg">
+            <h3><span class="portr-text">Teresa Doblinger</span></h3>
+        </a>
+
+        
+<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="kathi-bio"
+role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Katharina Prager</h5>
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body" data-text-key="kathi-bio"></div>
+    </div>
+</div>
+</div>
+
+        
+<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="alina-bio"
+role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Alina Scharbl</h5>
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body" data-text-key="alina-bio"></div>
+    </div>
+</div>
+</div>
+
+        
+<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="flo-bio"
+role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Florian Guggi</h5>
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body" data-text-key="flo-bio"></div>
+    </div>
+</div>
+</div>
+
+        
+<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="julian-bio"
+role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Julian Haunold</h5>
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body" data-text-key="julian-bio"></div>
+    </div>
+</div>
+</div>
+
+        
+<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="felix-bio"
+role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Felix Poppenberger</h5>
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body" data-text-key="felix-bio"></div>
+    </div>
+</div>
+</div>
+
+        
+<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="lilo-bio"
+role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Lilo Prager</h5>
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body" data-text-key="lilo-bio"></div>
+    </div>
+</div>
+</div>
+
+        
+<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="theresa-bio"
+role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Teresa Doblinger</h5>
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body" data-text-key="theresa-bio"></div>
+    </div>
+</div>
+</div>
+
+
+    </div>
+</section>
+</main>
+
+
+    <!-- Contact-->
+    <footer class="footer small text-center text-white-50" id="contact">
+        <h4 class="px-2 text-center mx-auto text-white" data-text-key="footer">Für Anfragen kontaktiere uns via Mail:
+            <a class="text-nowrap" href="mailto:info@flow-movement.at">info@flow-movement.at</a>
+        </h4>
+        Copyright © Flow Movement Collective 2023
+    </footer>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/885186ca90.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="/static/js/scripts.js"></script>
+    <input id="lexic-file" type="hidden" value="index" />
+    <script src="/static/js/i18n.js"></script>
+    
+<script src="/static/js/index.js"></script>
+</body>
+
+</html>
