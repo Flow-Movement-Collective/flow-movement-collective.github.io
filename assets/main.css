@@ -6963,6 +6963,15 @@ hr {
   .gallery-img:hover {
     filter: saturate(130%) brightness(120%); }
 
+@media (min-width: 768px) {
+  #showreel {
+    min-height: 400px;
+    aspect-ratio: 16 / 9; } }
+@media (max-width: 767.98px) {
+  #showreel {
+    min-height: 300px;
+    width: 100%; } }
+
 main {
   flex-grow: 1;
   display: flex;
