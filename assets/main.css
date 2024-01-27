@@ -6917,17 +6917,21 @@ hr {
   width: 80%; }
 
 .project-selector {
+  filter: brightness(65%);
   transition: background .5s;
   padding-top: 1rem; }
   .project-selector.selected {
     border: solid 1px rgba(255, 255, 255, 0.8);
-    background: rgba(255, 255, 255, 0.1); }
+    background: rgba(255, 255, 255, 0.1);
+    filter: none; }
   .project-selector:hover {
     background: rgba(29, 241, 181, 0.25);
-    cursor: pointer; }
+    cursor: pointer;
+    filter: none; }
   .project-selector:active {
     background: rgba(28, 241, 181, 0.5);
-    transition: background .1s; }
+    transition: background .1s;
+    filter: none; }
 
 .project-list iframe {
   padding: 0; }
