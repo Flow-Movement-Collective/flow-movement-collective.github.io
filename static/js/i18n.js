@@ -29,7 +29,7 @@ function changeLanguage(l) {
 }
 
 function getLangJSON(l, name) {
-    $.getJSON('static/i18n/' + l + '/' + name + '.json', function (data) {
+    $.getJSON('/static/i18n/' + l + '/' + name + '.json', function (data) {
         $.each(data, function (key, el) {
             $('[data-text-key=' + key + ']').html(el);
         });
