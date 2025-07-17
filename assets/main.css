@@ -6938,7 +6938,7 @@ hr {
 .project-list img {
   padding: 0;
   justify-content: center;
-  height: 315px; }
+  height: 100%; }
 .project-list .row:nth-child(even) {
   flex-direction: row-reverse; }
 .project-list .row div {
